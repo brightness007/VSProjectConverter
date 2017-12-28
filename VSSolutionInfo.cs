@@ -222,7 +222,10 @@ namespace ProjectConverter
                 sr = new StreamReader(fs);
                 br = new BinaryReader(fs);
 
-                // let's read Unicode Byte Order Mark (with CRLF)
+                // There is not need to handle Unicode Byte Order Mark,
+				// it has been handled by StreamReader.
+/*
+				// let's read Unicode Byte Order Mark (with CRLF)
                 bom = br.ReadBytes(5);
 
                 // if we don't have a BOM, we create a default one
@@ -237,7 +240,7 @@ namespace ProjectConverter
                     // rewind the streamreaders
                     fs.Seek(0, SeekOrigin.Begin);
                 }
-
+*/
                 while (sr.Peek() >= 0)
                 {
                     buf = sr.ReadLine();
