@@ -12,6 +12,6 @@ The original VB.Net source code can be downloaded from here: http://www.emmet-gr
 
 For Visual Studio project conversions from earlier versions of Visual Studio (Visual Studio 2002 through Visual Studio 2008) as well as Visual C++ support, you can check out the Visual Studio Project Converter project here: http://sourceforge.net/projects/vspc/
 
-System Requirements for release: Microsoft.NET 4.6
+System Requirements for release: Microsoft.NET 4.0
 
-Source Code Requirements: Visual Studio 2015
+Source Code Requirements: Visual Studio 2010
